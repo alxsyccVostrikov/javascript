@@ -38,12 +38,12 @@ let  submitButtonName=["Cadastrar"];
 
 
   function SignupBase() {
-    /*
+    
     var x = document.createElement("link");
     x.rel="stylesheet";
     x.href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css';
     document.head.appendChild(x);
-    */
+    
     CreatinInputSigun();
 
 }
