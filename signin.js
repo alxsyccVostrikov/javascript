@@ -66,7 +66,7 @@ document.write("  </div>");
 
 
 function BaseSigin(){
-document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
+//document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
 document.write("<div class='containe'>");
 CreatinInputSigin();
 document.write("    </div>");
