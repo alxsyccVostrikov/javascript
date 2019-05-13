@@ -17,7 +17,7 @@ let   url=["https://www.facebook.com/"+website,"https://www.instagram.com/"+webs
 
 //css style,automatizacao de testes
 
-      function SetCss(){
+      function setCss(){
 document.write("<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>");
 document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
 document.write("<style>button{margin: 5px;}</style>");
@@ -31,7 +31,7 @@ document.write("<style>.btn:hover i{transform: scale(1.3);color: #f1f1f1;}</styl
 document.write("<style>.btn:hover::before{animation: aaa 0.7s 1;top: -10%;left: -10%;}</style>");
 document.write("<style>@keyframes aaa {0%{left: -110%;top: 90%;}50%{left: 10%;top: -30%;}100%{top: -10%;left: -10%;}}</style>");
 }
-//SetCss();
+setCss();
 
 
 
