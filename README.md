@@ -13,3 +13,23 @@
   <li>https://raw.githack.com/alxsyccVostrikov/javascript/master/signup.js</li>
   </ul>
 
+<h3>button.js</h3>
+there re many function in sequence optmizing the MF(main function),put the kinds types and automatically create them...
+if u want LinkDenuncia(),it'll link button,or use BotoesDenuncia creates button to...
+put params of the services that ull utilize it.
+eg.
+BotoesDenuncia("instagram","facebook","google");
+or 
+LinkDenuncia("telegram","twitter");
+<p>
+<h3>MenuBar.js</h3>
+  <b>just use 'tst()' function and creates it nav bar with names pre-defined...</b>
+<p>
+<h3>MenuLateralUser.js</h3>
+  <b>just use 'MenuLateralUser(WebPageName)' function and creates it LateralMenu with names pre-defined...</b>
+<h3>md5.js</h3>
+  <b>just put md5("password") function passing value key</b>
+<h3>signin.js</h3>
+ <b>creating signin menu using BaseSigin(),SigninWithSocialIntegration(...args),passing args as param,SiginWithForgetPass()</b>
+<h3>signup.js</h3>
+  <b>using SignupBase() function</b>
