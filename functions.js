@@ -28,3 +28,11 @@ document.getElementById("password-repeat").value="";
 
 }
 
+
+function tab(i=1){
+tabs="";
+for(x=0;x<i;x++)
+tabs+="&nbsp;";
+return tabs;
+}
+
