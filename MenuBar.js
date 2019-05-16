@@ -5,7 +5,7 @@
 //--------------------------------------------------------------------------MenuBar.js
 
 
-  //let website="Animale";
+  let website="Animale";
 
   let person={
   email:"vostrikovalxsycc@gmail.com",
