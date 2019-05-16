@@ -44,7 +44,7 @@ let  submitButtonName=["Cadastrar"];
     x.href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css';
     document.head.appendChild(x);
     
-    CreatinInputSigun();
+    creatinInputSigun();
 
 }
 
@@ -72,12 +72,10 @@ document.write("<div class='container'>");
 document.write("<h1>Cadastro</h1>");
 document.write("<p>Preencha os campos abaixo para criar sua conta.</p>");
 document.write("<hr>");
-CreatinInputSigun();
+creatinInputSigun();
 document.write("</div>");
 
 }
-//SignupWithRepeatPass();
-//SignupBase();
 
 
 
