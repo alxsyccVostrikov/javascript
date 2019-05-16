@@ -22,6 +22,13 @@ let  glyphiconName=["Inscrever-se","Entrar"];
  
 
 
+
+function setCss(){
+document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
+document.write("<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>");
+}
+setCss();
+
 function CreatingMe(path="./"){
     //    for(let i=0;i<pag.length;i++)
      for(let i in pag)   
