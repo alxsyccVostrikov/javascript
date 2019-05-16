@@ -45,7 +45,7 @@ document.write("<style>section{padding-left: 15px;</style>");
 document.write("<style>}</style>");
 }
 
-function MenuLateralUser(website){
+function MenuLateralUser(website="VostrikovSec"){
     setCss();
 document.write("<nav class='navbar navbar-inverse sidebar' role='navigation'>");
     	document.write("<div class='collapse navbar-collapse' id='bs-sidebar-navbar-collapse-1'>");
