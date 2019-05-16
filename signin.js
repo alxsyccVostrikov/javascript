@@ -28,7 +28,7 @@ document.write("    <div class='form-group'>");
 }
 
 
-function SiginWithForgetPass(){
+function siginWithForgetPass(){
 
 
 document.write("<style>body {font-family: Arial, Helvetica, sans-serif;}</style>");
@@ -79,7 +79,7 @@ document.write("</div>");
 
 
 
-function SigninWithSocialIntegration(...args){
+function signinWithSocialIntegration(...args){
 document.write("<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>");
 
 let arg=args.sort();
@@ -164,7 +164,7 @@ document.write("<style>a{color:blue}</style>");
 }
 
 
-function SantaClowsLogin(){
+function santaClowsLogin(){
 	setCssNatal();
 document.write("<div class='container'>");
 document.write("	<div class='d-flex justify-content-center h-100'>");
