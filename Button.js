@@ -36,7 +36,7 @@ setCss();
 
 
 
-function CriandoIcons(...args){
+function criandoIcons(...args){
       //   for(let j=0;j<args.length;j++)
     //       for(let i=0;i<url.length;i++)
   for(let j in args)
@@ -55,7 +55,7 @@ function CriandoIcons(...args){
 
 
 
-  function BoobleSort() {
+  function boobleSort() {
     icon.sort();
 //        for(let j=0;j<icon.length;j++)
 //          for(let i=0;i<url.length;i++)
@@ -79,8 +79,8 @@ function genericSocialShare( i){
     }
     
     
-  function BotoesDenuncia(){
-    BoobleSort();
+  function botoesDenuncia(){
+    boobleSort();
     document.writeln("<div class='middle'>");
 //    for(let i=0;i<icon.length;i++)
   for(let i in icon)
@@ -88,8 +88,8 @@ function genericSocialShare( i){
     document.writeln("</div>");
   }
 
-  function LinkDenuncia(){
-    BoobleSort();
+  function binkDenuncia(){
+    boobleSort();
     document.writeln("<div class='middle'>");
 //    for(let i=0;i<icon.length;i++)
     for(let i in icon)
