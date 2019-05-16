@@ -8,7 +8,7 @@ let  submitButtonName=["Cadastrar"];
 
 
 
-  function creatinInputSigun(){
+  function creatinInputSignup(){
     //for(var i=0;i<nomeDosAttr.length;i++){
     for(let i in nomeDosAttr){
       
@@ -44,7 +44,7 @@ let  submitButtonName=["Cadastrar"];
     x.href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css';
     document.head.appendChild(x);
     
-    creatinInputSigun();
+    creatinInputSignup();
 
 }
 
@@ -72,7 +72,7 @@ document.write("<div class='container'>");
 document.write("<h1>Cadastro</h1>");
 document.write("<p>Preencha os campos abaixo para criar sua conta.</p>");
 document.write("<hr>");
-creatinInputSigun();
+creatinInputSignup();
 document.write("</div>");
 
 }
