@@ -13,7 +13,7 @@
 
 
 
-function CreatinInputSigin(){
+function creatinInputSigin(){
 //document.write("<style>.btn {width: 100%;padding: 12px;border: none;border-radius: 4px;margin: 5px 0;opacity: 0.85;display: inline-block;font-size: 17px;line-height: 20px;text-decoration: none;background:green;}</style>");
 document.write("    <div class='form-group'>");
 //  for(let i=0;i<campoDeLogin.length;i++){
@@ -54,7 +54,7 @@ document.write("  <div class='imgcontainer'>");
  document.write("    <img src='img_avatar2.png' alt='Avatar' class='avatar'>");
 document.write("  </div>");
 document.write("  <div class='container'>");
-CreatinInputSigin();
+creatinInputSigin();
 document.write("    <button type='submit'>Entrar</button>");
 document.write("    <label>");
 document.write("      <input type='checkbox' checked='checked' name='remember'> Remember me");
@@ -65,10 +65,10 @@ document.write("  </div>");
 
 
 
-function BaseSigin(){
+function basicSignin(){
 document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
 document.write("<div class='containe'>");
-CreatinInputSigin();
+creatinInputSigin();
 document.write("    </div>");
 document.write("    <div class='checkbox'>");
 document.write("      <label><input type='checkbox' name='remember'>Lembrar</label>");
@@ -118,7 +118,7 @@ document.write("<div class='col'>");
 document.write("<div class='hide-md-lg'>");
 document.write("<p>Ou log com seu email:</p>");
 document.write("</div>");
-CreatinInputSigin();
+creatinInputSigin();
 document.write("<input type='submit' value='Entrar'>");
 document.write("</div>");
 document.write("</div>");
