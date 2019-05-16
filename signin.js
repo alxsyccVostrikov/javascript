@@ -13,7 +13,7 @@
 
 
 
-function creatinInputSigin(){
+function creatinInputSignin(){
 //document.write("<style>.btn {width: 100%;padding: 12px;border: none;border-radius: 4px;margin: 5px 0;opacity: 0.85;display: inline-block;font-size: 17px;line-height: 20px;text-decoration: none;background:green;}</style>");
 document.write("    <div class='form-group'>");
 //  for(let i=0;i<campoDeLogin.length;i++){
@@ -28,7 +28,7 @@ document.write("    <div class='form-group'>");
 }
 
 
-function siginWithForgetPass(){
+function signinWithForgetPass(){
 
 
 document.write("<style>body {font-family: Arial, Helvetica, sans-serif;}</style>");
@@ -54,7 +54,7 @@ document.write("  <div class='imgcontainer'>");
  document.write("    <img src='img_avatar2.png' alt='Avatar' class='avatar'>");
 document.write("  </div>");
 document.write("  <div class='container'>");
-creatinInputSigin();
+creatinInputSignin();
 document.write("    <button type='submit'>Entrar</button>");
 document.write("    <label>");
 document.write("      <input type='checkbox' checked='checked' name='remember'> Remember me");
@@ -118,7 +118,7 @@ document.write("<div class='col'>");
 document.write("<div class='hide-md-lg'>");
 document.write("<p>Ou log com seu email:</p>");
 document.write("</div>");
-creatinInputSigin();
+creatinInputSignin();
 document.write("<input type='submit' value='Entrar'>");
 document.write("</div>");
 document.write("</div>");
