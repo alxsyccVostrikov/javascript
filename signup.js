@@ -8,7 +8,7 @@ let  submitButtonName=["Cadastrar"];
 
 
 
-  function CreatinInputSigun(){
+  function creatinInputSigun(){
     //for(var i=0;i<nomeDosAttr.length;i++){
     for(let i in nomeDosAttr){
       
@@ -37,7 +37,7 @@ let  submitButtonName=["Cadastrar"];
 
 
 
-  function SignupBase() {
+  function basicSignup() {
     
     var x = document.createElement("link");
     x.rel="stylesheet";
@@ -53,7 +53,7 @@ let  submitButtonName=["Cadastrar"];
 
 
 
-function SignupWithRepeatPass(){
+function signupWithRepeatPass(){
 document.write("<style>body {font-family: Arial, Helvetica, sans-serif;}</style>");
 document.write("<style>*{box-sizing: border-box;}</style>");
 document.write("<style>input[type=email], input[type=password],input[type=text] {width: 100%;padding: 15px;margin: 5px 0 22px 0;display: inline-block;border: none;background: #f1f1f1;}</style>");
