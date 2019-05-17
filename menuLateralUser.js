@@ -22,7 +22,7 @@ IconMenuLateralUser=[
 */
 //----------------------------------------------------------------------------MenuLateral.js
 
-//let website;
+let website;
 
 let menuLateralIcon=["fa-home","fa-envelope","fa-power-off","fa-home","fa-envelope","fa-home","fa-envelope","fa-power-off","fa-power-off"];
 let  menuLateralName=["Inicio","Menssagem","Perfil","Denúncias","Configuração","Contato","Networking","Estátisticas","Sair"];
@@ -32,8 +32,6 @@ let  menuLateralPage=["LoginUser.php","Menssagem.php","Perfil.php","Denuncia.php
 function setCss(){
 document.write("<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>");	
 document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>);    
-	
-	
 document.write("<style>@media (min-width: 768px) {</style>");
 document.write("<style>nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{padding: 0 0px 0 0px;}</style>");
 document.write("<style>nav.sidebar{width: 150px;height: 100%;margin-left: -160px;float: left;z-index: 8000;margin-bottom: 0px;}</style>");
@@ -49,7 +47,7 @@ document.write("<style>section{padding-left: 15px;</style>");
 document.write("<style>}</style>");
 }
 
-function MenuLateralUser(website="VostrikovSec"){
+function menuLateralUser(website="VostrikovSec"){
     setCss();
 document.write("<nav class='navbar navbar-inverse sidebar' role='navigation'>");
     	document.write("<div class='collapse navbar-collapse' id='bs-sidebar-navbar-collapse-1'>");
