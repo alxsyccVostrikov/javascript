@@ -29,17 +29,6 @@ document.write("<link rel='stylesheet' href='https://use.fontawesome.com/release
 }
 setCss();
 
-function creatingMe(path="./"){
-    //    for(let i=0;i<pag.length;i++)
-     for(let i in pag)   
-   document.write("<li><a href='"+path+pag[i]+"'>"+pagName[i]+"</a></li>");  
-}
-
-function creatingMd(path="./"){
-//for(let i=0;i<glyphicon.length;i++)
-  for(let i in glyphicon)    
-      document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");
-}
 
 
 
@@ -66,26 +55,8 @@ function me(path="./"){
 
            document.write("</ul>");    
 }
-//just component
-function criarMenuEsq(path="./"){
-//for(let i=0;i<pag.length;i++)
-  for(let i in pag)   
-      document.write("<li><a href='"+path+pag[i]+"'>"+pagName[i]+"</a></li>");   
-       // document.write("</ul>");    
-
-}
 
 
-
-
-
-//message
-function sms(path="./"){
-  alert("Desenvolvido por:"+person["nome"]+"\nemail:"+person["email"]);
-}
-
-
-//right menu full
 function md(path="./"){
   document.write("<ul class='nav navbar-nav navbar-right'>");
 //for(let i=0;i<glyphicon.length;i++)
@@ -95,13 +66,14 @@ function md(path="./"){
   document.write("</nav>");
 
 }
-//just component
-function criarMenuDir(path="./"){
-// for(let i=0;i<glyphicon.length;i++)
-for(let in glyphiconPag)
-  document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");       //document.write("</ul></nav>");
-  
-}          
+
+
+
+//message
+function sms(path="./"){
+  alert("Desenvolvido por:"+person["nome"]+"\nemail:"+person["email"]);
+}
+
   
 //creatin menu
 function criarMenu(path="./"){
