@@ -136,6 +136,6 @@ document.write("<ul class='nav navbar-nav navbar-right'>");
 
 
 function fullNavBar(path="./"){
-Me(path);
+//Me(path);
 Md(path);
 }
