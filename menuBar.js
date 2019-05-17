@@ -105,10 +105,10 @@ for(let in glyphiconPag)
   
 //creatin menu
 function CriarMenu(){
- Me();
-// CriarMenuEsq();
-  Md();
- // CriarMenuDir();
+// Me();
+ CriarMenuEsq();
+//  Md();
+  CriarMenuDir();
 }
 //CriarMenu();
 
@@ -132,10 +132,3 @@ document.write("<ul class='nav navbar-nav navbar-right'>");
   document.write("</nav>");
 }
 //tst();
-
-
-
-function fullNavBar(path="./"){
-//Me(path);
-Md(path);
-}
