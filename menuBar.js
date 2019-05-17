@@ -30,20 +30,6 @@ document.write("<link rel='stylesheet' href='https://use.fontawesome.com/release
 setCss();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //left menu full
 function me(path="./"){
   document.write("<nav class='navbar navbar-inverse'>");
@@ -56,7 +42,7 @@ function me(path="./"){
            document.write("</ul>");    
 }
 
-
+//right menu full
 function md(path="./"){
   document.write("<ul class='nav navbar-nav navbar-right'>");
 //   for(let i=0;i<glyphicon.length;i++)
@@ -70,7 +56,7 @@ function md(path="./"){
 
 
 //message
-function sms(path="./"){
+function sms(){
   alert("Desenvolvido por:"+person["nome"]+"\nemail:"+person["email"]);
 }
 
