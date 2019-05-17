@@ -104,7 +104,7 @@ for(let in glyphiconPag)
 }          
   
 //creatin menu
-function CriarMenu(){
+function criarMenu(){
 // Me();
  CriarMenuEsq();
 //  Md();
