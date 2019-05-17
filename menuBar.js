@@ -104,7 +104,7 @@ for(let in glyphiconPag)
 }          
   
 //creatin menu
-function criarMenu(){
+function criarMenu(path="./"){
    document.write("<nav class='navbar navbar-inverse'>");
     document.write("<a class='navbar-brand' onclick='sms()'>"+website+"</a>");
       document.write("<ul class='nav navbar-nav'>"); 
@@ -112,7 +112,7 @@ function criarMenu(){
  CriarMenuEsq();
 //  Md();
   document.write("<ul class='nav navbar-nav navbar-right'>");
-  CriarMenuDir();
+  CriarMenuDir(path="./");
    document.write("</nav>");
 }
 //CriarMenu();
