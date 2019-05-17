@@ -22,7 +22,7 @@ IconMenuLateralUser=[
 */
 //----------------------------------------------------------------------------MenuLateral.js
 
-//let website;
+let website;
 
 let menuLateralIcon=["fa-home","fa-envelope","fa-power-off","fa-home","fa-envelope","fa-home","fa-envelope","fa-power-off","fa-power-off"];
 let  menuLateralName=["Inicio","Menssagem","Perfil","Denúncias","Configuração","Contato","Networking","Estátisticas","Sair"];
