@@ -13,6 +13,13 @@
 
 
 
+function setCss(){
+document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
+document.write("<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'");
+
+}
+setCss();
+
 function creatinInputSignin(){
 //document.write("<style>.btn {width: 100%;padding: 12px;border: none;border-radius: 4px;margin: 5px 0;opacity: 0.85;display: inline-block;font-size: 17px;line-height: 20px;text-decoration: none;background:green;}</style>");
 document.write("    <div class='form-group'>");
