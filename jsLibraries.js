@@ -24,10 +24,17 @@ document.write("<script src='https://raw.githack.com/alxsyccVostrikov/javascript
 
 function addAnotherLib(...args) {
 let Alibs=args;
-for(let i=0;i<args.length;i++){
-    var script = document.createElement("script");
-    script.src = Alibs[i];  
- //document.head.appendChild(script);
- document.body.appendChild(script);
+for(let i=0;i<Alibs.length;i++){
+var x = document.createElement('script');
+x.src=Alibs[i];
+document.body.appendChild(x);
+/*
+x.onload=function(){
+alert(_);
+};
+script.onerror = function() {
+  alert("Error loading " + this.src);
+  };
+  */
 }
 }
