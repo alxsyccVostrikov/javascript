@@ -60,7 +60,7 @@ function me(path="./"){
 function md(path="./"){
   document.write("<ul class='nav navbar-nav navbar-right'>");
 //for(let i=0;i<glyphicon.length;i++)
-  for(let in glyphiconPag)
+  for(let i in glyphiconPag)
     document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");
       document.write("</ul>");
   document.write("</nav>");
@@ -77,20 +77,8 @@ function sms(path="./"){
   
 //creatin menu
 function criarMenu(path="./"){
-document.write("<nav class='navbar navbar-inverse'>");
-    document.write("<a class='navbar-brand' onclick='sms()'>"+website+"</a>");
-      document.write("<ul class='nav navbar-nav'>");    
-      //  for(let i=0;i<pag.length;i++)
-     for(let i in pag)    
-   document.write("<li><a href='"+path+pag[i]+"'>"+pagName[i]+"</a></li>");
-
-           document.write("</ul>");    
- document.write("<ul class='nav navbar-nav navbar-right'>");
-//for(let i=0;i<glyphicon.length;i++)
-  for(let in glyphiconPag)
-    document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");
-      document.write("</ul>");
-  document.write("</nav>");
+me();
+  md();
 }
 //CriarMenu();
 
