@@ -59,10 +59,10 @@ function me(path="./"){
 
 function md(path="./"){
   document.write("<ul class='nav navbar-nav navbar-right'>");
-//for(let i=0;i<glyphicon.length;i++)
-  for(let i in glyphiconPag)
-    document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");
-      document.write("</ul>");
+//   for(let i=0;i<glyphicon.length;i++)
+    for(let i in glyphiconPag)   
+      document.write("<li><a href='"+path+glyphiconPag[i]+"'><span class='glyphicon glyphicon-"+glyphicon[i]+"'></span> "+glyphiconName[i]+"</a></li>");
+        document.write("</ul>");
   document.write("</nav>");
 
 }
