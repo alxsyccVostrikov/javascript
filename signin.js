@@ -68,7 +68,7 @@ document.write("  </div>");
 function basicSignin(){
 document.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>");
 document.write("<div class='containe'>");
-creatinInputSigin();
+creatinInputSignin();
 document.write("    </div>");
 document.write("    <div class='checkbox'>");
 document.write("      <label><input type='checkbox' name='remember'>Lembrar</label>");
