@@ -132,3 +132,10 @@ document.write("<ul class='nav navbar-nav navbar-right'>");
   document.write("</nav>");
 }
 //tst();
+
+
+
+function fullNavBar(path="./"){
+Me(path);
+Md(path);
+}
