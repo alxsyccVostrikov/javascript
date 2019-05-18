@@ -21,7 +21,7 @@ let libs=args;
 for(let i=0;i<libs.length;i++)
 document.write("<script src='https://raw.githack.com/alxsyccVostrikov/javascript/master/"+libs[i]+".js'><\/script>");
 }
-
+/*
 function addAnotherLib(...args) {
 let Alibs=args;
 for(let i=0;i<Alibs.length;i++){
@@ -35,6 +35,14 @@ alert(_);
 script.onerror = function() {
   alert("Error loading " + this.src);
   };
-  */
+  *//*
 }
+}
+*/
+
+
+function addAnotherLib(url) {
+var x = document.createElement('script');
+x.src=url;
+document.body.appendChild(x);
 }
